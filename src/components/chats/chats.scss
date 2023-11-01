@@ -1,0 +1,36 @@
+.chats{
+    
+    .userChat{
+        border-bottom: 1px solid gray;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        color: white;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #2f2d52;
+        }
+
+        img{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .userChatInfo{
+            display: flex;
+            flex-direction: column;
+            .name{
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .text{
+                font-size: 13px;
+                color: lightgray;
+            }
+        }
+    }
+}
